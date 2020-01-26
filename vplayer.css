@@ -1,0 +1,50 @@
+body{
+    overflow: hidden;
+}
+
+.addToTextBox{
+    display: flex;
+}
+
+.addLinkTextbox{
+    height: 30px;
+    text-align: center; 
+    border-radius: 12px;
+    margin-right: 12px;
+    outline: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.addButton{
+    width: 130px;
+    background-image: linear-gradient(to right top, #a3ced3, #75bace, #47a3cc, #1d8bca, #1f70c3); 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.linkListAndVideoWrapper {
+    display: flex;
+    height: 100%;
+}
+
+.playlistLinkContainer{
+    width: 100vh;
+    background-color: black;
+    color: white;
+
+}
+
+.videoContainer{
+    height: 100vh;
+}
+
+.playListLabel{
+    font-size: 30px;
+    text-align: center;
+
+}

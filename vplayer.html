@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE VIDEO PLAYER</title>
+        <link rel="stylesheet" type="text/css" href="vplayer.css">
+    </head>
+    <body>
+        <div class="addToTextBox" id="addToTextBox">
+            <input type="text" class="addLinkTextbox" id="addLinkTextBox" autofocus placeholder="Enter the Link to add" onkeydown=textBoxKeyDownHandler(event)>
+            <button type="button" role="button" class="addButton" id="linkAddbutton" onclick="addItem()"> Add </button>
+        </div>
+        <div class="linkListAndVideoWrapper" id="linkListAndVideoWrapper">
+            <iframe class="videoContainer" id="videoContainer" width="70%" allow="autoplay" src=""></iframe>
+            <div class="playlistLinkContainer" draggable="true" id="playlistLinkContainer" ondragover="onLinkItemDragOver(event)" ondragstart="onLinkItemDragStart(event)" >
+                <p class="playListLabel">PlayList</p>
+            </div>
+        </div>
+        <script src="vplayer.js"></script>
+    </body>
+</html>
+
+
+
+
+
+<!-- <video  width="640" height="360" id="player1" preload="none" onended="onVideoEnd()">
+    <source type="video/youtube" id="videoContainer" src="" />
+</video> -->
+
+<!-- <i role="button" class="fa fa-trash icon" id="deleteIcon" onclick="deleteTodoItem(event)"></i> -->
